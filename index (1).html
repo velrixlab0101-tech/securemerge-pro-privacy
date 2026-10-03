@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>Privacy Policy — SecureMerge Pro</title>
+<meta name="description" content="Privacy Policy for SecureMerge Pro, an offline document and image toolkit for Android.">
+<style>
+:root {
+  color-scheme: light;
+  --bg:#f6f8fb; --card:#fff; --text:#172033; --muted:#596579;
+  --line:#e4e8ef; --accent:#155eef; --code:#f1f4f8;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height:1.7;
+}
+main {
+  width:min(900px, calc(100% - 32px)); margin:40px auto 64px;
+  background:var(--card); border:1px solid var(--line); border-radius:18px;
+  padding:clamp(24px,5vw,56px); box-shadow:0 10px 35px rgba(20,35,60,.06);
+}
+h1 { font-size:clamp(28px,5vw,40px); line-height:1.2; margin:0 0 18px; }
+h2 { margin-top:38px; line-height:1.3; font-size:25px; }
+h3 { margin-top:28px; line-height:1.35; font-size:19px; }
+p { margin:12px 0; }
+ul,ol { padding-left:26px; }
+li { margin:7px 0; }
+a { color:var(--accent); }
+blockquote {
+  margin:20px 0; padding:14px 18px; border-left:4px solid var(--accent);
+  background:#f4f7ff; border-radius:8px;
+}
+hr { border:0; border-top:1px solid var(--line); margin:34px 0; }
+code { background:var(--code); padding:2px 6px; border-radius:5px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; display:block; overflow-x:auto; }
+th,td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; min-width:150px; }
+th { background:#f7f9fc; }
+footer { color:var(--muted); text-align:center; font-size:13px; margin-top:30px; }
+@media (max-width:600px) {
+  main { width:calc(100% - 20px); margin:10px auto 30px; padding:22px 18px; border-radius:14px; }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy — SecureMerge Pro</h1>
+<p><strong>Effective date:</strong> October 3, 2026 · <strong>Last updated:</strong> October 3, 2026 <strong>Application:</strong> SecureMerge Pro (Android package <strong><code>com.securemerge.pro</code></strong>) <strong>Developer:</strong> Velrix Lab <strong>Contact:</strong> velrixlab0101@gmail.com</p>
+<hr>
+<h2>1. Summary</h2>
+<p>SecureMerge Pro is an offline document and image toolkit. It merges, splits, compresses, protects, converts, signs and scans documents entirely on your device.</p>
+<p><strong>We do not collect, transmit, sell, rent or trade your personal information.</strong> The app contains no analytics, no advertising, no crash reporting, no user accounts, and no subscription or payment processing. It requests no internet access, so it is technically incapable of sending your files or data anywhere.</p>
+<hr>
+<h2>2. Who is responsible for your data</h2>
+<p>Velrix Lab ("we", "us") is the controller for the limited personal data described in this policy. We do not operate servers and we do not run a backend — all processing happens on your device.</p>
+<h2>3. Information we collect</h2>
+<h3>3.1 Data you choose to provide</h3>
+<p>We collect only the files and text you deliberately hand to the app through Android's system file picker:</p>
+<ul>
+<li><strong>Documents and images</strong> you select for merging, splitting, compressing, encrypting, converting, cropping, resizing, watermarking or signing.</li>
+<li><strong>Text you create or recognise</strong> via OCR.</li>
+<li><strong>Signature strokes</strong> you draw on the signature pad.</li>
+<li><strong>Credentials you create</strong> — an app-lock PIN, a pattern-lock gesture, and a PDF encryption password.</li>
+</ul>
+<h3>3.2 Data generated on your device</h3>
+<ul>
+<li>Temporary working copies of the files you are editing, held in the app's private cache directory while a task runs.</li>
+<li>Thumbnails and preview renderings of your documents.</li>
+<li>A record of your app-lock settings, including failed-attempt counts and any temporary lockout timer.</li>
+</ul>
+<h3>3.3 What we do <em>not</em> collect</h3>
+<ul>
+<li>No name, email address, phone number, or account credentials.</li>
+<li>No device identifiers (no advertising ID, no IMEI, no Android ID, no MAC address).</li>
+<li>No location, no contacts, no call logs, no browsing history, no installed-app list.</li>
+<li>No files other than those you explicitly select.</li>
+<li>No diagnostic or usage telemetry of any kind.</li>
+</ul>
+<h3>3.4 Permissions, and why we need them</h3>
+<table>
+<thead><tr><th><strong>Permission</strong></th><th><strong>Why</strong></th><th><strong>When it is used</strong></th></tr></thead><tbody>
+<tr><td><strong><code>CAMERA</code></strong></td><td>Photograph a physical document so the scanner can detect its edges, correct perspective and produce a clean PDF or image.</td><td>Only after you tap the scanner and grant access. Camera is optional — the app installs and runs on camera-less devices.</td></tr>
+<tr><td><strong><code>USE_BIOMETRIC</code></strong> / <strong><code>USE_FINGERPRINT</code></strong></td><td>Let you unlock the app with your fingerprint or face instead of re-entering your PIN or pattern. Biometric matching is performed entirely by the operating system; <strong>the fingerprint or face template never reaches this app.</strong></td><td>Only if you enable biometric unlock.</td></tr>
+<tr><td>— Network permissions</td><td>The app deliberately <strong>does not request</strong> internet access. See Section 4.</td><td>Never.</td></tr>
+</tbody></table>
+<p>Because these are the only sensitive permissions the app declares, and camera is not mandatory, the app can be used with no permissions granted at all.</p>
+<h2>4. Why the app cannot upload your data</h2>
+<p>SecureMerge Pro does not declare the <strong><code>INTERNET</code></strong> or <strong><code>ACCESS_NETWORK_STATE</code></strong> permissions in its shipped Android manifest. Without <strong><code>INTERNET</code></strong>, the Android operating system blocks all outbound network access for this app, including background work.</p>
+<p>This is enforced at build time: our release manifest explicitly removes these permissions, overriding the ones that Google's bundled components would otherwise request. As a result, <strong>no document, image, recognised text, signature, or credential can leave your device</strong> — not by our choice of configuration, but because the operating system will not permit it.</p>
+<p>Third-party libraries bundled in the app (Google's ML Kit text-recognition and Firebase component-registration libraries) include framework code that is normally used for diagnostics. In SecureMerge Pro that code is <strong>inactive and incapable of transmitting anything</strong>, because the app holds no network permission. We have not enabled, configured or used any of it to collect information.</p>
+<h2>5. How your information is stored and protected</h2>
+<p>All storage is local to the app's private directory, which is isolated from other apps and not readable by them.</p>
+<p><strong>Encrypted vault.</strong> Files you add to the vault are encrypted on your device using AES-256 in GCM mode with HKDF-derived keys (4KB), via the AndroidX Security library, before being written to storage. They are stored as <strong><code>.enc</code></strong> files that cannot be read outside the app.</p>
+<p><strong>Encrypted preferences.</strong> Your app-lock PIN or pattern, and the app-lock settings, are stored in Android's EncryptedSharedPreferences, with keys encrypted using AES256-SIV and values using AES256-GCM. The encryption key is held by the Android keystore, which on modern devices is backed by hardware.</p>
+<p><strong>Other local storage.</strong> Drawn signatures and temporary working files are stored in app-private directories. Working files are placed in the operating system's cache directory, which the system may clear on its own.</p>
+<p><strong>Deliberate design decisions and honest limitations.</strong> We want to be transparent about how we protect data rather than overstate it:</p>
+<ul>
+<li><strong>No screenshot or screen-recording blocking.</strong> The app does not set a system flag to prevent screenshots. Content visible on screen, including vault documents, can be captured by your operating system's normal screenshot function or by the recent-apps thumbnail.</li>
+<li><strong>Decrypted files briefly exist unencrypted.</strong> When you open a vault document, it is decrypted to a temporary file in the app's cache directory so it can be displayed or shared. That copy is deleted when the action finishes, but the operating system could in principle retain a copy in its own storage. Deleting vault entries removes their encrypted files; deleting the app removes all of its local data.</li>
+<li><strong>Your PIN is stored protected but in a recoverable form.</strong> The app-lock PIN is stored in encrypted preferences. The pattern-lock gesture is additionally salted and hashed with SHA-256. An unlocked, rooted or otherwise compromised device is outside our control.</li>
+<li><strong>Signature files and app settings are not themselves encrypted.</strong> Signatures and preferences are stored in app-private storage and are excluded from backup, but they are not separately encrypted at rest like vault contents.</li>
+</ul>
+<p><strong>Excluded from backup.</strong> Your vault, your saved signatures and your app-lock preferences are explicitly excluded from Android's cloud backup and from device-to-device transfer. We also instruct the operating system not to back up this data, so your documents are not copied to your Google account or to a new phone.</p>
+<h2>6. How we use information</h2>
+<p>Only to perform the task you asked for, on your device, at the moment you ask for it. Specifically, to merge, split, compress, protect, unprotect, convert, resize, crop, rotate, watermark, sign, scan and export your files, and to authenticate you into the app.</p>
+<p>We do not use your files for advertising, analytics, model training, profiling, or any form of automated decision-making.</p>
+<h2>7. Sharing and disclosure</h2>
+<p><strong>We do not share your information.</strong> There are no third parties to share it with, and no network capability with which to do so.</p>
+<p>Two limited exceptions may apply, and in both cases you are the one who causes the transfer:</p>
+<ol>
+<li><strong>Exports you initiate.</strong> When you tap "Save" or "Export," Android's system file picker opens. If you choose a cloud storage provider, an email client, or a messaging app as the destination, <strong>that third party receives the file</strong> and is governed by its own privacy policy and terms. The transfer happens inside that app after you confirm it. We never see, receive or log where the file went.</li>
+<li><strong>Deleting originals at your request.</strong> If you enable "delete original after securing" when adding files to the vault, the app deletes the source file from its original location — through the storage provider you selected it from. This requires that provider to grant deletion access, and the app reports back if the deletion could not be completed.</li>
+</ol>
+<p>We also do not sell, rent or trade personal information, and we have never done so.</p>
+<h2>8. Data retention</h2>
+<p>We retain nothing, because we hold nothing.</p>
+<ul>
+<li>Exported files exist only where you chose to save them.</li>
+<li>Temporary processing files are deleted when a task completes.</li>
+<li>Vault files remain encrypted on your device until you delete them or uninstall the app.</li>
+<li>Uninstalling SecureMerge Pro removes all of the app's local data, including the vault, signatures and settings.</li>
+</ul>
+<h2>9. Your rights and controls</h2>
+<p>Because we do not collect or hold your personal data, most data-subject rights are satisfied by design — there is nothing for us to disclose, correct, export or delete. Under the GDPR, UK GDPR, the CCPA/CPRA and similar laws, we do not have personal information to sell, share or disclose.</p>
+<p>You remain in full control of your data at all times:</p>
+<ul>
+<li><strong>Delete a vault entry</strong> — removes its encrypted file from your device.</li>
+<li><strong>Clear all app data</strong> — Android Settings → Apps → SecureMerge Pro → Storage → Clear storage, or uninstall the app.</li>
+<li><strong>Withdraw files</strong> — close the app without exporting; nothing is retained.</li>
+<li><strong>Revoke camera access</strong> — Android Settings → Apps → SecureMerge Pro → Permissions.</li>
+<li><strong>Turn off app lock or biometrics</strong> — within the app's Settings and Vault screens.</li>
+<li><strong>Disable device backup for this app</strong> — the app already excludes its sensitive directories; you can also disable backup entirely in Android settings.</li>
+</ul>
+<h2>10. Children</h2>
+<p>SecureMerge Pro is intended for a general audience aged 13 and older. It is not directed at children under 13, and we do not knowingly collect information from children. Because the app collects no information from any user, it collects none from children.</p>
+<h2>11. Security</h2>
+<p>We use industry-standard encryption for data at rest: AES-256-GCM with HKDF key derivation for vault files, and AES256-SIV/AES256-GCM for stored preferences, with keys held in the Android keystore. Data in transit is not applicable because the app performs no network transmission. Access to app-private storage is additionally restricted by the Android operating system's per-app sandbox.</p>
+<p>No system is perfectly secure. A rooted, jailbroken or otherwise compromised device, a malicious third-party app with elevated permissions, or physical access to an unlocked device can defeat these protections. We do not claim otherwise.</p>
+<h2>12. Third-party components</h2>
+<p>SecureMerge Pro bundles the following open-source and Google libraries. None of them is used to collect or transmit your information:</p>
+<table>
+<thead><tr><th><strong>Component</strong></th><th><strong>Purpose</strong></th><th><strong>Network use</strong></th></tr></thead><tbody>
+<tr><td>Google ML Kit text-recognition (bundled, on-device)</td><td>Recognises printed English and Hindi text from images <strong>on your device</strong>.</td><td>None — runs fully offline.</td></tr>
+<tr><td>Firebase component-registration library</td><td>Internal ML Kit registration framework only.</td><td>Inactive; blocked by the absent internet permission.</td></tr>
+<tr><td>Google DataTransport libraries</td><td>Internal ML Kit diagnostics transport.</td><td>Inactive; blocked by the absent internet permission.</td></tr>
+<tr><td>AndroidX CameraX</td><td>Camera capture for the document scanner.</td><td>None.</td></tr>
+<tr><td>Apache PDFBox (Android port)</td><td>PDF reading, merging, splitting, compression, encryption.</td><td>None.</td></tr>
+<tr><td>AndroidX Security (Tink)</td><td>Encryption of vault files and preferences.</td><td>None.</td></tr>
+<tr><td>Coil, Hilt/Dagger, Jetpack Compose, Navigation</td><td>UI, image loading and dependency injection.</td><td>None.</td></tr>
+</tbody></table>
+<p>Their own licences govern those components; their inclusion does not create any data-sharing relationship with you.</p>
+<h2>13. International transfers</h2>
+<p>Not applicable. The app does not transfer data across borders, because it does not transfer data at all.</p>
+<h2>14. Your content and intellectual property</h2>
+<p>Documents, images, signatures and text you process with SecureMerge Pro remain entirely yours. We claim no rights over them and we have no access to them.</p>
+<h2>15. Changes to this policy</h2>
+<p>We may update this policy if the app's functionality or legal requirements change. The "Last updated" date at the top always reflects the current version, and material changes will be described in the release notes or communicated to you in the app. Continued use of the app after an update means the revised policy applies to it.</p>
+<h2>16. Contact us</h2>
+<p>If you have questions, requests, or concerns about this policy or the app:</p>
+<p><strong>Velrix Lab</strong> Email: <strong>velrixlab0101@gmail.com</strong> Website: <strong>No website is currently provided.</strong></p>
+<p>Because we hold no personal data, we may not be able to respond to requests for records about you — there will be no records to provide, because we hold none.</p>
+<hr>
+<h2>Play Console Data Safety — answers matching this policy</h2>
+<table>
+<thead><tr><th><strong>Question</strong></th><th><strong>Answer</strong></th></tr></thead><tbody>
+<tr><td>Does your app collect or share any of the required user data types?</td><td><strong>No</strong></td></tr>
+<tr><td>Is all of the user data collected by your app encrypted in transit?</td><td><strong>Not applicable — the app has no network permission, so no data is transmitted</strong></td></tr>
+<tr><td>Do you provide a way for users to request that their data is deleted?</td><td><strong>Yes</strong> — vault entries are deletable in-app, and uninstalling the app removes all local data</td></tr>
+<tr><td>Does your app collect data from children?</td><td><strong>No</strong></td></tr>
+<tr><td>Target audience</td><td><strong>13 and over</strong>, not directed at children</td></tr>
+<tr><td>Data types declared</td><td><strong>None</strong></td></tr>
+</tbody></table>
+<p><strong>Two notes for the Data Safety form's free-text/attestation section:</strong></p>
+<ul>
+<li>Do not claim "no third-party SDKs." Google ML Kit and Firebase component code <strong>are</strong> present in the binary; they are simply incapable of transmission. If you have checked a box asserting no SDK collects data, be prepared to explain that the absence of the <strong><code>INTERNET</code></strong> permission renders them inert.</li>
+<li>Play reviewers read manifests. If any uploaded build has an <strong><code>INTERNET</code></strong> permission present, the "no data collected" declaration becomes inaccurate.</li>
+</ul>
+<footer>SecureMerge Pro · Velrix Lab · Last updated October 3, 2026</footer>
+</main>
+</body>
+</html>
